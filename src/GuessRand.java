@@ -4,9 +4,8 @@ public class GuessRand {
 	public static void main(String[] args) {
 		int rand = 0;
 		boolean success = false;
-		// Instantiate (create) a new Random() object 'r'
-		rand = // Get a random number between 1-100
-		
+		Random r = new Random
+		result = r.nextInt(101 + 1);
 		while (    // loop until 'success' is true. ) {
 			int guess = 0;
 			// Instantiate a new Scanner 'console'
